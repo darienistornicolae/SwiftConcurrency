@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		014242C329E300F10038D17E /* SwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014242C229E300F10038D17E /* SwiftConcurrencyApp.swift */; };
-		014242C529E300F10038D17E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014242C429E300F10038D17E /* ContentView.swift */; };
 		014242C729E300F20038D17E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014242C629E300F20038D17E /* Assets.xcassets */; };
 		014242CA29E300F20038D17E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014242C929E300F20038D17E /* Preview Assets.xcassets */; };
+		014242D129E301630038D17E /* DoTryCatchThrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014242D029E301630038D17E /* DoTryCatchThrow.swift */; };
+		014242D329E309F30038D17E /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014242D229E309F30038D17E /* DownloadImageAsync.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		014242BF29E300F10038D17E /* SwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		014242C229E300F10038D17E /* SwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyApp.swift; sourceTree = "<group>"; };
-		014242C429E300F10038D17E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		014242C629E300F20038D17E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		014242C929E300F20038D17E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		014242D029E301630038D17E /* DoTryCatchThrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTryCatchThrow.swift; sourceTree = "<group>"; };
+		014242D229E309F30038D17E /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		014242C129E300F10038D17E /* SwiftConcurrency */ = {
 			isa = PBXGroup;
 			children = (
+				014242D029E301630038D17E /* DoTryCatchThrow.swift */,
+				014242D229E309F30038D17E /* DownloadImageAsync.swift */,
 				014242C229E300F10038D17E /* SwiftConcurrencyApp.swift */,
-				014242C429E300F10038D17E /* ContentView.swift */,
 				014242C629E300F20038D17E /* Assets.xcassets */,
 				014242C829E300F20038D17E /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				014242C529E300F10038D17E /* ContentView.swift in Sources */,
 				014242C329E300F10038D17E /* SwiftConcurrencyApp.swift in Sources */,
+				014242D329E309F30038D17E /* DownloadImageAsync.swift in Sources */,
+				014242D129E301630038D17E /* DoTryCatchThrow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
