@@ -15,6 +15,7 @@
 		015B58E92A66F95B00599AD2 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B58E82A66F95B00599AD2 /* AsyncAwait.swift */; };
 		015B58EB2A6701BA00599AD2 /* TaskConccurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B58EA2A6701BA00599AD2 /* TaskConccurrency.swift */; };
 		01A5256D2A681A9E008E0882 /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A5256C2A681A9E008E0882 /* AsyncLet.swift */; };
+		01A5256F2A6821E9008E0882 /* TaskGroupConccurency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A5256E2A6821E9008E0882 /* TaskGroupConccurency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		015B58E82A66F95B00599AD2 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
 		015B58EA2A6701BA00599AD2 /* TaskConccurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskConccurrency.swift; sourceTree = "<group>"; };
 		01A5256C2A681A9E008E0882 /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
+		01A5256E2A6821E9008E0882 /* TaskGroupConccurency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupConccurency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				015B58E82A66F95B00599AD2 /* AsyncAwait.swift */,
 				015B58EA2A6701BA00599AD2 /* TaskConccurrency.swift */,
 				01A5256C2A681A9E008E0882 /* AsyncLet.swift */,
+				01A5256E2A6821E9008E0882 /* TaskGroupConccurency.swift */,
 				014242C229E300F10038D17E /* SwiftConcurrencyApp.swift */,
 				014242C629E300F20038D17E /* Assets.xcassets */,
 				014242C829E300F20038D17E /* Preview Content */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01A5256D2A681A9E008E0882 /* AsyncLet.swift in Sources */,
+				01A5256F2A6821E9008E0882 /* TaskGroupConccurency.swift in Sources */,
 				014242C329E300F10038D17E /* SwiftConcurrencyApp.swift in Sources */,
 				014242D329E309F30038D17E /* DownloadImageAsync.swift in Sources */,
 				015B58EB2A6701BA00599AD2 /* TaskConccurrency.swift in Sources */,
