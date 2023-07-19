@@ -12,6 +12,9 @@
 		014242CA29E300F20038D17E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014242C929E300F20038D17E /* Preview Assets.xcassets */; };
 		014242D129E301630038D17E /* DoTryCatchThrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014242D029E301630038D17E /* DoTryCatchThrow.swift */; };
 		014242D329E309F30038D17E /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014242D229E309F30038D17E /* DownloadImageAsync.swift */; };
+		015B58E92A66F95B00599AD2 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B58E82A66F95B00599AD2 /* AsyncAwait.swift */; };
+		015B58EB2A6701BA00599AD2 /* TaskConccurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015B58EA2A6701BA00599AD2 /* TaskConccurrency.swift */; };
+		01A5256D2A681A9E008E0882 /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A5256C2A681A9E008E0882 /* AsyncLet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		014242C929E300F20038D17E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		014242D029E301630038D17E /* DoTryCatchThrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTryCatchThrow.swift; sourceTree = "<group>"; };
 		014242D229E309F30038D17E /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
+		015B58E82A66F95B00599AD2 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
+		015B58EA2A6701BA00599AD2 /* TaskConccurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskConccurrency.swift; sourceTree = "<group>"; };
+		01A5256C2A681A9E008E0882 /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 			children = (
 				014242D029E301630038D17E /* DoTryCatchThrow.swift */,
 				014242D229E309F30038D17E /* DownloadImageAsync.swift */,
+				015B58E82A66F95B00599AD2 /* AsyncAwait.swift */,
+				015B58EA2A6701BA00599AD2 /* TaskConccurrency.swift */,
+				01A5256C2A681A9E008E0882 /* AsyncLet.swift */,
 				014242C229E300F10038D17E /* SwiftConcurrencyApp.swift */,
 				014242C629E300F20038D17E /* Assets.xcassets */,
 				014242C829E300F20038D17E /* Preview Content */,
@@ -140,9 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A5256D2A681A9E008E0882 /* AsyncLet.swift in Sources */,
 				014242C329E300F10038D17E /* SwiftConcurrencyApp.swift in Sources */,
 				014242D329E309F30038D17E /* DownloadImageAsync.swift in Sources */,
+				015B58EB2A6701BA00599AD2 /* TaskConccurrency.swift in Sources */,
 				014242D129E301630038D17E /* DoTryCatchThrow.swift in Sources */,
+				015B58E92A66F95B00599AD2 /* AsyncAwait.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
